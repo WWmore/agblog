@@ -1,0 +1,11 @@
+I"�<h3 id="geometry-for-digital-recontruction">Geometry for digital recontruction</h3>
+<blockquote>
+  <ul>
+    <li>There are two general approaches to capturing physical form.</li>
+    <li>One is the use of a <strong>tracking arm</strong>, especially suitable for capturing strings of <strong>point data</strong> from selected feature curves. 捕获挑选的特征曲线上的点云</li>
+    <li>The other method uses a laser range scanner and results in a large number of more or less <strong>regularly distributed measurement points</strong> from the surface of the given physical model. 从曲面上获取近乎正则分散的点云</li>
+    <li>Finally, all of these point clouds have to be merged into a single combined point cloud represented in the same coordinate system. This procedure is called <strong>registration</strong>.
+<img src="/images/posts/AG/17-2 registration.png" height="350" width="620" /></li>
+  </ul>
+</blockquote>
+:ET

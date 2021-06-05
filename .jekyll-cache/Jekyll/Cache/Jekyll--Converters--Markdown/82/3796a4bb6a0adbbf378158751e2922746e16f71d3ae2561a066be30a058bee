@@ -1,0 +1,54 @@
+I"�	<h3 id="数组nparray的集合运算">数组np.array的集合运算</h3>
+<blockquote>
+  <ul>
+    <li>np.unique(x):计算x中的唯一元素，并返回有序结果</li>
+    <li>np.intersect1d(x,y):计算x和y中的公共元素，并返回有序结果</li>
+    <li>np.union1d(x,y):计算x和y的并集，并返回有序结果</li>
+    <li>np.in1d(x,y):用于测试一个数组中的值在另一个数组中的成员资格，得到一个表示“x的元素是否包含于y”的布尔型数组</li>
+    <li>np.setdiff1d(x,y):集合的差，即元素在x中且不在y中</li>
+    <li>np.setxor1d(x,y):集合的对称差，即存在于一个数组中，但不同时存在于两个数组中的元素</li>
+  </ul>
+</blockquote>
+
+<h3 id="列表list的集合运算">列表list的集合运算</h3>
+<blockquote>
+  <ul>
+    <li>a = t $|$ s : t 和 s的并集</li>
+    <li>b = t &amp; s : t 和 s的交集</li>
+    <li>c = t – s : 求差集（项在t中，但不在s中）</li>
+    <li>d = t ^ s : 对称差集（项在t或s中，但不会同时出现在二者中）</li>
+  </ul>
+</blockquote>
+
+<h3 id="去掉numpy数组a中与b重复的元素但是不改变顺序">去掉numpy数组a中与b重复的元素，但是不改变顺序</h3>
+
+<blockquote>
+  <p>a=np.array([2,3,4,1,2,3])
+b=np.array([4,5])</p>
+</blockquote>
+
+<blockquote>
+  <p>a[np.in1d(a,b)]
+Out: array([4])</p>
+</blockquote>
+
+<blockquote>
+  <p>a[np.in1d(a,b,invert=True)]
+Out: array([2, 3, 1, 2, 3])</p>
+</blockquote>
+
+<p>注意：这里使用np.in1d(v,left)返回的结果是布尔值，是left元素在v中，按照v的顺序排列的出现的真假值</p>
+
+<p>链接：<a href="https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.in1d.html">https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.in1d.html</a></p>
+
+<h3 id="删除某个元素">删除某个元素</h3>
+<blockquote>
+  <p>numpy 使用np.del() 删除某个指定位置的元素
+list 使用a.remove() 删除指定元素
+numpy 不能像list直接删除，但是可以选择提取： a[a!=3] 提取a中不含有3的元素</p>
+</blockquote>
+
+<h3 id="改变整型">改变整型</h3>
+<p>整数元素的array进行numpy集合运算时候，会发生整型变浮点，使用 <code class="language-plaintext highlighter-rouge">a.astype(int)</code> 可以改变回来，无论array a 有多少个元素.
+链接<a href="https://blog.csdn.net/elecjack/article/details/50920318">https://blog.csdn.net/elecjack/article/details/50920318</a></p>
+:ET

@@ -1,0 +1,74 @@
+I"<h2 id="页首设置">页首设置<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></h2>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: "Markdown常用语句"
+date: 2019-03-09
+tag: github
+---
+</code></pre></div>  </div>
+</blockquote>
+
+<h2 id="插入图片">插入图片</h2>
+
+<p>单个显示：</p>
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img src="/images/posts/文件夹/图片名字.JPG" height="300" width="400" &gt;
+&lt;img src="/images/posts/文件夹/图片名字.JPG" height="40%" width="40%" &gt;
+</code></pre></div>  </div>
+</blockquote>
+
+<p>并排居中显示：</p>
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div align="center"&gt;
+&lt;img src="/images/posts/travel2018/oslo1.JPG" height="40%" width="40%" alt="aa" &gt;
+&lt;img src="/images/posts/travel2018/oslo2.JPG" height="40%" width="40%" alt="bb" &gt;
+&lt;/div&gt;
+</code></pre></div>  </div>
+</blockquote>
+
+<h2 id="插入链接">插入链接</h2>
+
+<p>直接插入：</p>
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;https://网站地址/&gt;
+</code></pre></div>  </div>
+</blockquote>
+
+<p>跳转链接：</p>
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="https://https://wwmore.github.io/"  target="_blank"&gt;跳到博客首页&lt;/a&gt;
+</code></pre></div>  </div>
+</blockquote>
+
+<p>效果： <a href="https://https://wwmore.github.io/" target="_blank">跳到博客首页</a></p>
+
+<h2 id="插入代码">插入代码</h2>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```Python
+   代码内容
+```
+</code></pre></div>  </div>
+</blockquote>
+
+<h2 id="改变字体">改变字体</h2>
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>**加粗字体**
+*倾斜字体*
+- 标记 句首序列黑点
+</code></pre></div>  </div>
+</blockquote>
+
+<p>参考链接：
+<a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a>
+<a href="https://www.markdownguide.org/basic-syntax/">https://www.markdownguide.org/basic-syntax/</a></p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>在符号<code class="language-plaintext highlighter-rouge">&gt;</code>后面添加5个空格实现下面显示 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

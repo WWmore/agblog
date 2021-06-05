@@ -1,0 +1,83 @@
+I"<h3 id="geometry-for-digital-recontruction">Geometry for digital recontruction</h3>
+<blockquote>
+  <ul>
+    <li>There are two general approaches to capturing physical form.</li>
+    <li>One is the use of a <strong>tracking arm</strong>, especially suitable for capturing strings of <strong>point data</strong> from selected feature curves. 捕获挑选的特征曲线上的点云</li>
+    <li>The other method uses a laser range scanner and results in a large number of more or less <strong>regularly distributed measurement points</strong> from the surface of the given physical model. 从曲面上获取近乎正则分散的点云</li>
+    <li>Finally, all of these point clouds have to be merged into a single combined point cloud represented in the same coordinate system. This procedure is called <strong>registration</strong>.
+<img src="/images/posts/AG/17-2 registration.png" height="350" width="620" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="data-acquisition-and-registration-数据获取和匹配">Data acquisition and registration 数据获取和匹配</h3>
+<blockquote>
+  <ul>
+    <li>Digitizer arms. The method is very well suited to capturing particular selected features of a model.
+<img src="/images/posts/AG/17-8 scanner.png" height="400" width="800" /></li>
+    <li>Optical scanning devices: Near-range scanners, measure objects of a size less than a few meters.</li>
+    <li>Medium- and long-range scanners, when the distance between scanner and object exceeds 2 meters.
+<img src="/images/posts/AG/17-10 graz.png" height="240" width="800" /></li>
+    <li>Outlier removal and noise reduction.
+<img src="/images/posts/AG/17-11 noise.png" height="240" width="800" /></li>
+    <li>Fully automatic registration and surface matching.
+<img src="/images/posts/AG/17-15 registration.png" height="550" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="the-polygon-phase-多边形阶段">The polygon phase 多边形阶段</h3>
+<blockquote>
+  <ul>
+    <li>Voronoi diagrams in the plane.
+<img src="/images/posts/AG/17-16 voronoi.png" height="450" width="800" />
+<img src="/images/posts/AG/17-18 voronoi.png" height="480" width="800" /></li>
+    <li>Two-dimensional Delaunay triangulation.</li>
+    <li>The Delaunay triangulation joins exactly those points from the input set p1,
+p2, …, pN by an edge whose Voronoi cells share a common edge.
+<img src="/images/posts/AG/17-19 delaunay.png" height="540" width="800" />
+<img src="/images/posts/AG/17-22 voronoi.png" height="222" width="800" /></li>
+    <li>Voronoi diagrams in three dimensions.
+<img src="/images/posts/AG/17-23 voronoi.png" height="470" width="800" />
+<img src="/images/posts/AG/17-24 voronoi.png" height="340" width="800" /></li>
+    <li>Surface triangulations.
+<img src="/images/posts/AG/17-25 delaunay.png" height="360" width="800" /></li>
+    <li>Interactive improvements. <br />
+Hole filling requires the specification of part of the triangulation around the detected hole.
+<img src="/images/posts/AG/17-26 hole.png" height="370" width="800" /></li>
+    <li>Relaxation and smoothing.</li>
+    <li>Mesh decimation.
+<img src="/images/posts/AG/17-27 feature.png" height="190" width="800" />
+<img src="/images/posts/AG/17-28 contraction.png" height="640" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="segmentation-分割">Segmentation 分割</h3>
+<blockquote>
+  <ul>
+    <li>A feature region is defined as one with a significant difference in the principal curvatures (i.e., with a small principal curvature in feature direction and a high one across the feature).
+<img src="/images/posts/AG/17-31 segment.png" height="530" width="620" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="surface-fitting-曲面拟合">Surface fitting 曲面拟合</h3>
+<blockquote>
+  <ul>
+    <li>plane, sphere, cone, and cylinder exhibit only simple surfaces. These shapes are not only rather easy to detect automatically but approximations of them are not difficult to compute within the detected surface class
+<img src="/images/posts/AG/17-33 symmetry.png" height="380" width="800" /></li>
+    <li>Freeform surface fitting.
+<img src="/images/posts/AG/17-35 graz.png" height="560" width="530" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="the-surfaces-need-to-be-build-需被建造的曲面">The surfaces need to be build 需被建造的曲面</h3>
+<blockquote>
+  <ul>
+    <li>for applications in architecture it may be better to sacrifice some accuracy and try to approximate the measurement data by a union of surface patches that can “easily” be built.</li>
+    <li>These surfaces include ruled surfaces, developable surfaces, and other kinematically generated surfaces.</li>
+    <li>Approximation with ruled surfaces.</li>
+    <li>Developable surfaces.
+<img src="/images/posts/AG/17-36 ruled.png" height="550" width="700" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="references-and-further-reading">References and further reading</h3>
+:ET

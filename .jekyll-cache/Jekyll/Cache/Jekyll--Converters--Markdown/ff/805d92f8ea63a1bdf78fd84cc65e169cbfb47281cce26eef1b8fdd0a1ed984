@@ -1,0 +1,14 @@
+I"�<p>写一段Matlab程序计算类圆盘三角网格的Tutte嵌入：</p>
+<ul>
+  <li>需要识别网格边界格点；</li>
+  <li>表示格点列为$V=(v_1,\cdots, v_n, v_{n+1}, \cdots, v_N)$, 其中前$n$个为内部格点，后$n-N$为封闭边界格点。</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/14head2-trimesh.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head2-tutte-scatter.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head2-graph.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head-tutte embedding.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head-tutte-scatter.jpg" alt="" />
+ <img src="/images/posts/gp_homework/14head-graph.jpg" alt="" /></p>
+:ET

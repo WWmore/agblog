@@ -1,0 +1,12 @@
+I"�<h3 id="数组nparray的集合运算">数组np.array的集合运算</h3>
+<blockquote>
+  <ul>
+    <li>np.unique(x):计算x中的唯一元素，并返回有序结果</li>
+    <li>np.intersect1d(x,y):计算x和y中的公共元素，并返回有序结果</li>
+    <li>np.union1d(x,y):计算x和y的并集，并返回有序结果</li>
+    <li>np.in1d(x,y):用于测试一个数组中的值在另一个数组中的成员资格，得到一个表示“x的元素是否包含于y”的布尔型数组</li>
+    <li>np.setdiff1d(x,y):集合的差，即元素在x中且不在y中</li>
+    <li>np.setxor1d(x,y):集合的对称差，即存在于一个数组中，但不同时存在于两个数组中的元素</li>
+  </ul>
+</blockquote>
+:ET

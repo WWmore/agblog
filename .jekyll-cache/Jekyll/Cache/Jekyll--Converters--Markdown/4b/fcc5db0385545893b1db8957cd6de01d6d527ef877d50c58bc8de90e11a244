@@ -1,0 +1,127 @@
+I"<p>list 转 dictionary 链接<a href="https://www.jianshu.com/p/fbf71e6da515">https://www.jianshu.com/p/fbf71e6da515</a></p>
+
+<pre><code class="language-Python">a=np.arange(20)
+
+b=-np.arange(20)
+
+dict(zip(a,b))
+Out:
+{0: 0,
+ 1: -1,
+ 2: -2,
+ 3: -3,
+ 4: -4,
+ 5: -5,
+ 6: -6,
+ 7: -7,
+ 8: -8,
+ 9: -9,
+ 10: -10,
+ 11: -11,
+ 12: -12,
+ 13: -13,
+ 14: -14,
+ 15: -15,
+ 16: -16,
+ 17: -17,
+ 18: -18,
+ 19: -19}
+
+c=dict(zip(a,b))
+
+c.keys()
+Out: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+c.values()
+Out:
+[0,
+ -1,
+ -2,
+ -3,
+ -4,
+ -5,
+ -6,
+ -7,
+ -8,
+ -9,
+ -10,
+ -11,
+ -12,
+ -13,
+ -14,
+ -15,
+ -16,
+ -17,
+ -18,
+ -19]
+</code></pre>
+
+<p>如果两个list都很大，你需要引入itertools.izip来解决问题:</p>
+
+<pre><code class="language-Python">import itertools
+
+{k:v for k,v in itertools.izip(a,b)}
+Out:
+{0: 0,
+ 1: -1,
+ 2: -2,
+ 3: -3,
+ 4: -4,
+ 5: -5,
+ 6: -6,
+ 7: -7,
+ 8: -8,
+ 9: -9,
+ 10: -10,
+ 11: -11,
+ 12: -12,
+ 13: -13,
+ 14: -14,
+ 15: -15,
+ 16: -16,
+ 17: -17,
+ 18: -18,
+ 19: -19}
+</code></pre>
+
+<pre><code class="language-Python">dict = (itertools.izip(a,b))
+
+dict
+Out: &lt;itertools.izip at 0x3505f388&gt;
+
+for i in dict:print i
+(0, 0)
+(1, -1)
+(2, -2)
+(3, -3)
+(4, -4)
+(5, -5)
+(6, -6)
+(7, -7)
+(8, -8)
+(9, -9)
+(10, -10)
+(11, -11)
+(12, -12)
+(13, -13)
+(14, -14)
+(15, -15)
+(16, -16)
+(17, -17)
+(18, -18)
+(19, -19)
+
+</code></pre>
+
+<p>遍历字典中的元素：</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">newdic</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+   <span class="k">print</span> <span class="n">i</span><span class="p">,</span> <span class="n">v</span>
+<span class="mi">0</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="mi">1</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="mi">2</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">]</span>
+<span class="mi">3</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]</span>
+<span class="mi">4</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="mi">5</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+<span class="mi">6</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+</code></pre></div></div>
+:ET

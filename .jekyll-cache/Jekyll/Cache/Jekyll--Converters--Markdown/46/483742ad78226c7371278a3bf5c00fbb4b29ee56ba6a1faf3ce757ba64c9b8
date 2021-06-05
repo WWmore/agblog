@@ -1,0 +1,30 @@
+I"�<p>已知旋转曲面
+\(X(u,v)=\begin{array}{c@{}cc}
+\left[\begin{array}{ccccc}
+ &amp; cos(v) &amp; -sin(v) &amp; 0 &amp; \\
+&amp; sin(v) &amp; cos(v) &amp; 0 &amp;\\
+ &amp; 0 &amp; 0 &amp; 1 &amp; \\
+\end{array}\right]
+\end{array}\begin{array}{c@{}cc}
+\left[\begin{array}{cc}
+ x(u)\\0\\ z(u)\\
+\end{array}\right]
+\end{array},\)
+取$(x(u),z(u)) = (r cos(u)+a, r sin(u)), a &gt;0, r &gt; 0$.</p>
+
+<ol>
+  <li>在$[0, 2\pi]\times[0, 2\pi]$范围内展示曲面X.</li>
+  <li>计算Gauss曲率和平均曲率，并在曲面上用颜色展示正(red)负(blue)零(green)曲率值.</li>
+</ol>
+
+<p><img src="/images/posts/gp_homework/6Revolution surface.jpg" alt="" /></p>
+
+<p><img src="/images/posts/gp_homework/6Gauss curvature.jpg" alt="" /></p>
+
+<p><img src="/images/posts/gp_homework/6Mean curvature.jpg" alt="" /></p>
+
+<figure class="half">
+<img scr="/images/posts/gp_homework/6Revolution surface.jpg" />
+<img scr="/images/posts/gp_homework/6Revolution surface.jpg" />
+</figure>
+:ET

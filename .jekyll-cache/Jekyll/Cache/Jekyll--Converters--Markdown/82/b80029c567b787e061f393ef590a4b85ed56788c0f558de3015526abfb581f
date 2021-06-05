@@ -1,0 +1,28 @@
+I"�<h3 id="union-difference-and-intersection-并差交">Union, difference and intersection 并+差+交</h3>
+
+<ul>
+  <li>The set that contains all points of set A and all points of set B, but nothing
+else, is called the union of A and B.</li>
+  <li>The intersection of A and B is defined as the set of all points that belong both
+to A and to B.</li>
+  <li>The difference of A and B contains only those points of A that do not lie in
+B. Analogously, the difference of B and A consists of points of B that are not
+contained in A.
+<img src="/images/posts/AG/boolean1.png" alt="" />
+<img src="/images/posts/AG/boolean2.png" alt="" /></li>
+</ul>
+
+<h3 id="trim-and-split-修剪裂开">Trim and split 修剪+裂开</h3>
+
+<ul>
+  <li>Boolean operations do not work when surfaces are involved</li>
+  <li>When it comes to modeling with surfaces, we use the techniques of trimming and
+splitting.
+<img src="/images/posts/AG/split.png" alt="" />
+<img src="/images/posts/AG/trimming.png" alt="" />
+<img src="/images/posts/AG/trimmed.png" alt="" /></li>
+</ul>
+
+<p><img src="/images/posts/AG/trimarch1.png" alt="" />
+<img src="/images/posts/AG/trimarch2.png" alt="" /></p>
+:ET

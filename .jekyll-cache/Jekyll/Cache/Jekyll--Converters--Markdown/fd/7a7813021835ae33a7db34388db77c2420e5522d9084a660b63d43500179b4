@@ -1,0 +1,14 @@
+I"�<p>写一段Matlab程序极小化三角网格曲面面积(有固定的边界)：</p>
+<ul>
+  <li>计算并展示网格格点处的平均曲率向量；</li>
+  <li>行程梯度下降算法极小化曲面面积。</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/15sphere.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15sphere-result.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15planar2.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15planar-result2.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15cylinder.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15cylinder-H.jpg" alt="" />
+ <img src="/images/posts/gp_homework/15cylinder-result2.jpg" alt="" /></p>
+:ET

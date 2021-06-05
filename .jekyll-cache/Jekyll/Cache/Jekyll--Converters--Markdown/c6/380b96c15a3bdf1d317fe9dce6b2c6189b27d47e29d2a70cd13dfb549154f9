@@ -1,0 +1,2 @@
+I"m<p>使用Matlab函数$[V, T]=readobj(filename)$ 读取obj文件，返回格点集$V$和面集$F$：</p>
+:ET

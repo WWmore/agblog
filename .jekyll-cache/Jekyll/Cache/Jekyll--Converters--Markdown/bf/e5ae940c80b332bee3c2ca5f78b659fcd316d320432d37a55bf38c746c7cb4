@@ -1,0 +1,6 @@
+I"�<ul>
+  <li>给定点阵${x_i}\in R^{2}$, 执行算法拟合3次Bezier曲线；</li>
+  <li>参考Matlab函数：<code class="language-plaintext highlighter-rouge">spmak, spval, spcol</code>.</li>
+  <li>使用上述函数表示曲线 $c$.</li>
+</ul>
+:ET

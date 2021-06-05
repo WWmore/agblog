@@ -1,0 +1,79 @@
+I"<p><img src="/images/posts/AG/meshRoof.png" height="200" width="400" /></p>
+
+<h3 id="curves-曲线">Curves 曲线</h3>
+<ul>
+  <li>All points of a circle or a conic section lie in a plane. These curves are called <strong>planar curves</strong>, in contrast to <strong>spatial curves</strong> such as helixes. 如下图，维也纳Karl教堂两个柱子上的纹路，就是螺旋线：</li>
+</ul>
+
+<p><img src="/images/posts/AG/karl.png" height="210" width="390" /></p>
+
+<ul>
+  <li>Points of the curve with a uniquely defined tangent are called <strong>regular points</strong>. All points where the tangent vector $c’(t)$ is a non-vanishing vector are <strong>regular points</strong>. Curve points where $c’(t)$ is the zero vector $o$ are singular points. 下图是奇异点、螺旋线的切线与平面成定角：</li>
+</ul>
+
+<p><img src="/images/posts/AG/singular.png" height="150" width="400" /></p>
+
+<ul>
+  <li>
+    <p>discrete curve 离散曲线：The polygon is also called a <strong>discrete curve</strong>. In many practical computations, curves are actually <strong>polygons (i.e., discrete curves)</strong>. 离散曲线就是折线。</p>
+  </li>
+  <li>
+    <p>下图是椭圆线的密切圆中心轨迹即evolute、Frenet标架，osculating circle密圆、principle normal主法向量，binomial副法向量：</p>
+  </li>
+</ul>
+
+<p><img src="/images/posts/AG/frenet.png" height="240" width="400" /></p>
+
+<ul>
+  <li>从切平面方向（与密切平面垂直方向）的投影是几乎光滑曲线(蓝线)，密切平面方向在yz平面投影有拐点inflection point（红线），在xz平面有尖点cusp（绿线）：
+<img src="/images/posts/AG/frenetProjection.png" height="250" width="400" /></li>
+</ul>
+
+<h3 id="conic-sections-锥部分">Conic sections 锥部分</h3>
+<ul>
+  <li>implicit representation隐式表示：$a·x^2 + b·x·y + c·y^2 + d·x + e·y + f = 0.$</li>
+  <li>ellipse 椭圆： $b^2·x^2 + a^2·y^2 – a^2·b^2 = 0$; 找椭圆的密切圆圆心构图方法：</li>
+</ul>
+
+<p><img src="/images/posts/AG/ellipse.png" height="150" width="200" /></p>
+
+<p><img src="/images/posts/AG/ellipse2.png" height="300" width="400" /></p>
+
+<ul>
+  <li>hyperbola 双曲线：$b^2·x^2 – a^2·y^2 – a^2·b^2 = 0$;</li>
+</ul>
+
+<p><img src="/images/posts/AG/hyperbola.png" height="170" width="320" /></p>
+
+<p><img src="/images/posts/AG/hyperbola2.png" height="230" width="430" /></p>
+
+<ul>
+  <li>parabola 抛物线：$x^2 – 2py = 0.$ 抛物线的evolute：</li>
+</ul>
+
+<p><img src="/images/posts/AG/parabola.png" height="180" width="400" /></p>
+
+<h3 id="surfaces-曲面">Surfaces 曲面</h3>
+<ul>
+  <li>参数曲面：从平面区域投影到三维空间：
+<img src="/images/posts/AG/surface.png" height="200" width="200" /></li>
+  <li>空间曲线切线生成的曲面：
+<img src="/images/posts/AG/tangent.png" height="175" width="300" /></li>
+  <li><strong>Whitney’s umbrella</strong>： y轴正方向处有两个切平面，则上面的每个点都是奇异点； <strong>Labs septic</strong> 曲面含有99个奇异点：
+<img src="/images/posts/AG/umbrella.png" height="300" width="400" /></li>
+  <li>锥面点：elliptic surface point, hyperbolic surface point, parabolic surface point:
+<img src="/images/posts/AG/conicPoint.png" height="165" width="300" /></li>
+</ul>
+
+<h3 id="intersection-curves-of-surfaces-曲面的交线">Intersection curves of surfaces 曲面的交线</h3>
+<ul>
+  <li>conic intersection 锥面相交形成的建筑vault穹顶：
+<img src="/images/posts/AG/vault.png" height="300" width="400" /></li>
+</ul>
+
+<blockquote>
+  <p>If two rotational cylinders or cones possess a common inscribed sphere, their intersection curve decomposes into a pair of conic sections or into a conic section and a single ruling.</p>
+</blockquote>
+
+<p><img src="/images/posts/AG/twocylinder.png" height="263" width="600" /></p>
+:ET

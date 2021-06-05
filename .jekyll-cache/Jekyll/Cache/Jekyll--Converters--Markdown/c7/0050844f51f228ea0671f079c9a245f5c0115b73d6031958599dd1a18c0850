@@ -1,0 +1,17 @@
+I";<p>使用Matlab函数$[V, T]=readobj(filename)$ 读取obj文件，返回格点集$V$和面集$F$：</p>
+
+<ul>
+  <li>使用函数<code class="language-plaintext highlighter-rouge">fopen, frewind, fclose, fgets, strtok, sscanf</code></li>
+  <li>obj文件格式参考<code class="language-plaintext highlighter-rouge">https://en.wikipedia.org/wiki/Wavefront_.obj_file</code></li>
+  <li>使用<code class="language-plaintext highlighter-rouge">trimesh</code>或者<code class="language-plaintext highlighter-rouge">trisurf</code>展示三角网格</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/13arm_scatter.jpg" alt="" />
+<img src="/images/posts/gp_homework/13arm_trimesh.jpg" alt="" />
+<img src="/images/posts/gp_homework/13arm_trisurf.jpg" alt="" />
+<img src="/images/posts/gp_homework/13arm_patch.jpg" alt="" />
+<img src="/images/posts/gp_homework/13egea_scatter.jpg" alt="" />
+<img src="/images/posts/gp_homework/13egea_trimesh.jpg" alt="" />
+<img src="/images/posts/gp_homework/13egea_trisurf.jpg" alt="" />
+<img src="/images/posts/gp_homework/13egea_patch.jpg" alt="" /></p>
+:ET

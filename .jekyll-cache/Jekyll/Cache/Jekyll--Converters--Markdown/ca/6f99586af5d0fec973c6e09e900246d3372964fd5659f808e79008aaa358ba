@@ -1,0 +1,37 @@
+I"�<h3 id="常用快捷键">常用快捷键</h3>
+<h4 id="学习台湾教学视频界面介绍马克杯制作">学习台湾教学视频：界面介绍+马克杯制作</h4>
+<ul>
+  <li>鼠标右键：                点选</li>
+  <li>滑轮：                      放大缩小</li>
+  <li>滑轮中建：               旋转</li>
+  <li>鼠标左键：               确认操作</li>
+  <li>
+    <p>鼠标中建放在选单列上：滚动显示完整工具</p>
+  </li>
+  <li>
+    <p>拖拉新视窗：          找到+位置</p>
+  </li>
+  <li>a : 全选/取消全选</li>
+  <li>b:+鼠标左键：          box可以进行框选</li>
+  <li>e:                               extrude 挤出</li>
+  <li>f:                    face           对选中的不超过两条线、或者不超过四个点生成平面</li>
+  <li>g：                glide           平移</li>
+  <li>k：               knife             显示小刀，进行切割</li>
+  <li>m:                 move             移动物件到别的图层</li>
+  <li>r:                   rotate 旋转</li>
+  <li>s：                scale 缩放</li>
+  <li>t:                   显示+取消菜单栏</li>
+  <li>x:                         删除</li>
+  <li>z:                                  表面模式和线图模式的切换</li>
+  <li>tab: obj mode 与 edit mode切换</li>
+  <li>ctrl+鼠标左键：           进行自由划线选取</li>
+  <li>ctrl + r：                    显示loop cut 线</li>
+  <li>ctrl+tap：                         点选切换 vertex，edge，face selction</li>
+  <li>ctrl+u：                  保存文件</li>
+  <li>ctril+上=shift+space：全局+回缩当前视窗</li>
+  <li>ctrl+option+q：        一步切割成4个界面，类似rhino</li>
+  <li>shift+a：                     显示出增加物件选单</li>
+  <li>shift+c：                  将选择点回归到物体中心</li>
+  <li>shift+滑轮中建：     平移+旋转整个界面</li>
+</ul>
+:ET

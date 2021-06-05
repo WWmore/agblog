@@ -1,0 +1,30 @@
+I":<h3 id="winton-guest-house建模">Winton Guest House建模</h3>
+
+<ol>
+  <li>Cartesian coordinates笛卡尔坐标</li>
+  <li>Right- and left-handed coordinate system 右手/左右坐标系</li>
+  <li>Cuboids 长方体</li>
+  <li>Surface and solid models 曲面和实体模型</li>
+  <li>Extrusion 挤型</li>
+  <li>Global and local coordinate systems 全局和局部坐标系</li>
+  <li>Polar coordinates 极坐标系</li>
+  <li>Cylindrical coordinates 柱面坐标</li>
+  <li>Rotational cylinder 旋转柱面</li>
+  <li>Snapping 对齐</li>
+  <li>Handles 手柄</li>
+  <li>Layers 层次</li>
+  <li>Color, texture, and material 颜色，纹理，材质</li>
+</ol>
+
+<p><img src="/images/posts/AG/winton.png" alt="" /></p>
+
+<h3 id="球球面坐标挤型曲面">球、球面坐标、挤型曲面</h3>
+
+<ol>
+  <li>Sphere 球</li>
+  <li>Spherical coordinates 球面坐标</li>
+  <li>Geographic coordinate system 地理坐标系</li>
+  <li>Extrusion revisited: cylinder and cone surfaces 重新挤压：柱面和锥面</li>
+  <li>Outlook 展望：ellipse，parabola，hyperbola</li>
+</ol>
+:ET

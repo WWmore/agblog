@@ -1,0 +1,14 @@
+I"�<p>已知旋转曲面
+\(X(u,v)=\begin{array}{c@{}cc}
+\left[\begin{array}{ccccc}
+ &amp; cos(v) &amp; -sin(v) &amp; 0 &amp; \\
+&amp; sin(v) &amp; cos(v) &amp; 0 &amp;\\
+ &amp; 0 &amp; 0 &amp; 1 &amp; \\
+\end{array}\right]
+\end{array}\begin{array}{c@{}cc}
+\left[\begin{array}{cc}
+ x(u)\\0\\ z(u)\\
+\end{array}\right]
+\end{array},\)
+取$(x(u),z(u)) = (r cos(u)+a, r sin(u)), a &gt;0, r &gt; 0$.</p>
+:ET

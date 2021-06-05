@@ -1,0 +1,6 @@
+I"�<p>Robust circle 、 line fitting.
+对比使用least squares, weighted least squares 和RANSAC三种方法拟合结果.</p>
+
+<p><img src="/images/posts/gp_homework/9line.jpg" alt="" />
+<img src="/images/posts/gp_homework/9circle.png" alt="" /></p>
+:ET

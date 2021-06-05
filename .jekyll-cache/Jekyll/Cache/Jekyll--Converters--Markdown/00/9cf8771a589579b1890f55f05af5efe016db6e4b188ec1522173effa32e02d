@@ -1,0 +1,67 @@
+I"�<p><img src="/images/posts/AG/16-4 printers.png" height="500" width="800" /></p>
+
+<h3 id="model-making-and-architecture-造型和建筑">Model making and architecture 造型和建筑</h3>
+<blockquote>
+  <ul>
+    <li>three main categories (presentation models, papid prototyping models, and digital fabrication and assembly of parts) as they relate to architecture.
+<img src="/images/posts/AG/16-7 swissbau.png" height="280" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="fabrication-techniques-制造技术">Fabrication techniques 制造技术</h3>
+<blockquote>
+  <ul>
+    <li>The processes are based on the form of the material being worked on (e.g., flat sheet materials versus volumetric blocks). Another criterion is whether material is added to or subtracted from shape the design.</li>
+    <li>A degree of freedom (DOF) is a geometric definition of freedom of movement either along an axis in space or rotation about an axis in space. In three- dimensional space, there are six degrees of freedom: three degrees for movement in the x, y, and z directions and three degrees for rotation about the x, y, and z axes.</li>
+    <li>The DOF is not the only criterion determining the power of a fabrication approach. It is a combination of fabrication technique and geometric DOF that enables us to build abstract geometry in physical form.</li>
+  </ul>
+</blockquote>
+
+<h3 id="cutting-based-processes-基于切割技术">Cutting-based processes 基于切割技术</h3>
+<blockquote>
+  <ul>
+    <li>Sheet-based cutting techniques.</li>
+    <li>Laser cutters and plasma cutters.</li>
+    <li>Waterjet cutter.</li>
+    <li>Sheet cutter.</li>
+  </ul>
+</blockquote>
+
+<h3 id="additive-processes-layered-fabrication-辅助过程-分层制造">Additive processes: layered fabrication 辅助过程-分层制造</h3>
+<blockquote>
+  <ul>
+    <li>Fuse deposition modeling (FDM)</li>
+    <li>Powder-based processes</li>
+    <li>Stereolithography</li>
+  </ul>
+</blockquote>
+
+<h3 id="subtractive-techniques-提取技术">Subtractive techniques 提取技术</h3>
+<blockquote>
+  <ul>
+    <li>Subtractive techniques create geometric models by removing material from a solid block or sheet. This technique has the advantage that a large range of machinable materials (such as wood or stone) can be used in their natural forms.</li>
+    <li>Mills and routers.</li>
+    <li>Foam cutters.</li>
+    <li>Robotic machining.</li>
+  </ul>
+</blockquote>
+
+<h3 id="geometric-challenges-related-to-machining-and-rapid-prototyping-机械和快速原型的几何挑战">Geometric challenges related to machining and rapid prototyping 机械和快速原型的几何挑战</h3>
+<blockquote>
+  <ul>
+    <li>One challenge is the breaking apart of the initial geometry into meaningful components and ensuring that these parts can be fabricated with the given machinery.</li>
+    <li>Aesthetics of fabrication and geometric implications.</li>
+    <li>Choosing materials based on geometric properties.</li>
+    <li>Implications for standardization.</li>
+  </ul>
+</blockquote>
+
+<h3 id="assembly-集装">Assembly 集装</h3>
+<blockquote>
+  <ul>
+    <li>Fastener-based assemblies.</li>
+    <li>Geometry-based assemblies.</li>
+    <li>Robotic assembly.</li>
+  </ul>
+</blockquote>
+:ET

@@ -1,0 +1,72 @@
+I"�<p><img src="/images/posts/AG/drawing.png" alt="" /></p>
+
+<h3 id="projections">Projections</h3>
+<ul>
+  <li>Parallel projections</li>
+</ul>
+
+<p>直线的射影像为直线或者一个点</p>
+
+<p>平行线射影像仍平行</p>
+
+<p>保距离比</p>
+
+<p>保等长</p>
+<ul>
+  <li>Normal projection</li>
+</ul>
+
+<p>平行射影线垂直投影到射影平面</p>
+
+<p><img src="/images/posts/AG/statecenterMIT.png" alt="" /></p>
+
+<h3 id="perspective-projection">Perspective projection</h3>
+
+<p><img src="/images/posts/AG/perspective.png" alt="" /></p>
+
+<h3 id="light-sources-照明">Light sources 照明</h3>
+
+<ol>
+  <li>distant light ~ parallel projection</li>
+  <li>point light ~ perspective projection</li>
+  <li>spot light, ambient light, flash light</li>
+</ol>
+
+<h3 id="rendering-methods-渲染">Rendering methods 渲染</h3>
+
+<ol>
+  <li>local, global lighting</li>
+  <li>global lighting</li>
+</ol>
+
+<h3 id="color-by-rendering-method">Color by rendering method</h3>
+
+<p><img src="/images/posts/AG/shading.png" alt="" /></p>
+
+<ol>
+  <li>Flat shading
+ 每个面只有一个颜色</li>
+  <li>Gouraud shading
+ 每个点处使用线性插值</li>
+  <li>Phong shading
+ 每个点处法向量使用线性插值</li>
+  <li>Ray tracing
+ 利用反射</li>
+  <li>Radiosity
+ 增加漫反射</li>
+</ol>
+
+<p><img src="/images/posts/AG/raytracing.png" alt="" /></p>
+
+<h3 id="orthogonal-and-oblique-axonometrie-projection-垂直和斜轴测法">Orthogonal and oblique axonometrie projection 垂直和斜轴测法</h3>
+<p><img src="/images/posts/AG/axonometrie.png" alt="" /></p>
+
+<h3 id="nonlinear-projection">Nonlinear projection</h3>
+
+<ol>
+  <li>Cylindrical projection</li>
+  <li>Spherical projection</li>
+</ol>
+
+<p><img src="/images/posts/AG/antwerpen.png" alt="" /></p>
+:ET

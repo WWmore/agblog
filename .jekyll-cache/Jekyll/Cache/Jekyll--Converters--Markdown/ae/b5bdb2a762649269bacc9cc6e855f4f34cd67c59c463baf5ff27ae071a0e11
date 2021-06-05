@@ -1,0 +1,17 @@
+I"`<p>$f: R^2 \to R$ 是一个光滑函数，$x: R^2 \to R^3$</p>
+
+\[(u,v)\to(x,y,z)=(u,v,f(u,v))\]
+
+<p>是一个曲面。考虑垂直射影点$p=(x,y,z)$到$x$:</p>
+<ul>
+  <li>基于Newton算法；</li>
+  <li>如何初始化算法？</li>
+  <li>使用handles@(u,v)；</li>
+  <li>画出结果，展示点垂直到曲面的切平面及相应足点。</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/11fig_2d.jpg" alt="" />
+<img src="/images/posts/gp_homework/11fig_3d.jpg" alt="" />
+<img src="/images/posts/gp_homework/11fig_3d1.jpg" alt="" />
+<img src="/images/posts/gp_homework/11fig_3d2.jpg" alt="" /></p>
+:ET

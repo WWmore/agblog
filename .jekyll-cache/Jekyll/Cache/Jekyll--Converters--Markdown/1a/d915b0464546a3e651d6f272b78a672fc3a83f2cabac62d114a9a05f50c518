@@ -1,0 +1,53 @@
+I"Ã
+<h3 id="motions-sweeping-and-shape-evolution">Motions, sweeping, and shape evolution</h3>
+<blockquote>
+  <p>kinematic geometry = geometry of motions</p>
+</blockquote>
+
+<p><img src="/images/posts/AG/12-1 motions.png" height="500" width="666" /></p>
+
+<h3 id="motions-in-the-plane">Motions in the plane</h3>
+<blockquote>
+  <p>However, there is some systematic behavior, and the simplest is the following: At any time instant t0, the normals to the trajectories pass through a point p(t0) (or they are parallel).</p>
+</blockquote>
+
+<p><img src="/images/posts/AG/12-10 motion cusp.png" height="350" width="630" /></p>
+
+<h3 id="spatial-motions">Spatial Motions</h3>
+
+<p><img src="/images/posts/AG/12-26 motion mobius.png" height="460" width="650" /></p>
+
+<h3 id="sweeping-and-skinning">Sweeping and Skinning</h3>
+
+<p><img src="/images/posts/AG/12-30 motion sweeping.png" height="510" width="660" /></p>
+<blockquote>
+  <p>Whereas sweeping often does not allow us to precisely prescribe the location of the sources in space, there is a method for doing so. It is called <strong>skinning</strong>, which wraps a surface (skin) over a given network of curves.</p>
+</blockquote>
+
+<p><img src="/images/posts/AG/12-32 skinning.png" height="410" width="650" />
+<img src="/images/posts/AG/12-33 skinning archi.png" height="400" width="680" /></p>
+
+<h3 id="curve-evolution">Curve Evolution</h3>
+<blockquote>
+  <p>evolutions of curves =  curve flows</p>
+</blockquote>
+
+<p><img src="/images/posts/AG/12-35 curve evolution.png" height="356" width="340" />
+<img src="/images/posts/AG/12-37 evolution.png" height="350" width="666" /></p>
+
+<h3 id="metaballs-and-modeling-with-implicit-surfaces">Metaballs and Modeling with Implicit Surfaces</h3>
+<blockquote>
+  <ul>
+    <li>One calls the set of points on c the <strong>zero level set</strong> of f because for all points of c the value of f is 0.</li>
+    <li>The representation of a curve as a level set of a function is also known as <strong>implicit representation</strong>.</li>
+    <li>We may look at other level sets of f (also denoted as isolines or isocurves of f), which
+are the loci of points where f has the same value k. $f(x,y) = k$</li>
+    <li>If we define the new function $g(x,y) = f(x,y) â€“ k$ the k-level set of f appears as the zero-level set of g.</li>
+    <li>Any implicitly represented curve c: f(x,y) = 0 may be embedded into a family of level sets f(x,y) = k. By variation of k, we obtain a mathematical description of a curve evolution.</li>
+  </ul>
+</blockquote>
+
+<p><img src="/images/posts/AG/12-40 topographic.png" height="400" width="636" />
+<img src="/images/posts/AG/12-45 metaball.png" height="500" width="700" />
+<img src="/images/posts/AG/12-47 metaball.png" height="360" width="740" /></p>
+:ET

@@ -1,0 +1,106 @@
+I"�<h3 id="discrete-freeform-structure">Discrete freeform structure</h3>
+<p><img src="/images/posts/AG/19-2 kunst haus.png" height="225" width="435" /></p>
+
+<h3 id="triangle-meshes-三角网格">Triangle meshes 三角网格</h3>
+<p>Aesthetics is greatly enhanced if the mesh can be decomposed into three families of fair polygons (structure lines).</p>
+<blockquote>
+  <ul>
+    <li>six beams meeting in a node means a significantly higher node complexity compared to other types of meshes.</li>
+    <li>the per-area cost of triangular glass panels is higher than that of quadrilateral panels.</li>
+    <li>one aims at less steel, more glass, and less weight, which also points to non-triangular faces.</li>
+    <li>triangle meshes in general torsion-free nodes do not exist.</li>
+    <li>triangle meshes do not possess offsets at constant face-face or edge-edge distance.
+<img src="/images/posts/AG/19-4 triangle.png" height="225" width="435" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="quadrilateral-meshes-with-palnar-faces-具有平面面的四边网格">Quadrilateral meshes with palnar faces 具有平面面的四边网格</h3>
+<p><img src="/images/posts/AG/19-5 pq.png" height="360" width="650" /></p>
+<blockquote>
+  <ul>
+    <li>Rotational PQ mesh.
+<img src="/images/posts/AG/19-6 pq.png" height="370" width="700" />
+<img src="/images/posts/AG/19-7 rotation.png" height="520" width="800" /></li>
+    <li>Conjugate curve networks. <br />
+Pick a curve c in the network and compute in each of its points the tangent to the curve from the other family. Then, these tangents must form a developable ruled surface.<br />
+A network of curves resulting by translation is another simple example of a conjugate curve network.<br />
+It carries infinitely many conjugate curve networks!
+<img src="/images/posts/AG/19-8 conjugate.png" height="400" width="800" /></li>
+    <li>Hyperbolic paraboloid.
+<img src="/images/posts/AG/19-9 conjugate.png" height="240" width="800" /></li>
+    <li>Principal curvature lines.<br />
+curve network that is conjugate and orthogonal.</li>
+    <li>Planar quad meshes are discrete versions of conjugate curve networks.
+<img src="/images/posts/AG/19-10 conjugate.png" height="460" width="800" /></li>
+    <li>A planarization algorithm.<br />
+if the input mesh has been extracted from a <strong>conjugate curve network</strong> chances are high that the optimization will not get stuck in an undesirable solution and thus may yield a practically useful result
+<img src="/images/posts/AG/19-12 planarization.png" height="640" width="800" /></li>
+    <li>Combination of subdivision and planarization as a design tool.
+<img src="/images/posts/AG/19-14 liuyang.png" height="540" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="parallel-meshes-offsets-and-supporting-beam-layout-平行网格等距面支撑梁柱结构">Parallel meshes, offsets, and supporting beam layout 平行网格，等距面，支撑梁柱结构</h3>
+<p><img src="/images/posts/AG/19-16 offset.png" height="640" width="800" /></p>
+<blockquote>
+  <ul>
+    <li>We call two meshes M, M* <strong>parallel</strong> if there is a one-to-one correspondence among their vertices, edges, and faces (such meshes are called combinatorially equivalent) and if corresponding edges are parallel.</li>
+    <li>any mesh parallel to a PQ mesh is also a PQ mesh.
+<img src="/images/posts/AG/19-20 support structure.png" height="450" width="800" /></li>
+    <li>Requiring that the node axes be roughly orthogonal to the underlying design surface implies that the mesh M has planar or spherical shape. For a general freeform triangle mesh M, there is no chance to construct a practically useful support structure with torsion-free nodes.
+<img src="/images/posts/AG/19-21 offset.png" height="600" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="offset-meshes-等距网格">Offset meshes 等距网格</h3>
+<blockquote>
+  <ul>
+    <li>Offset surfaces revisited. <br />
+Note that the normals of F are normals of F d as well<br />
+The tangent planes at corresponding points of F and F d are parallel and at constant distance d.</li>
+    <li>PQ meshes with exact offsets. <br />
+ An offset mesh Md of a PQ mesh M is parallel to M and lies at constant distance d to M.</li>
+    <li><strong>Vertex offsets</strong>: The distance of corresponding vertices of M and Md has a constant value d, which does not depend on the vertex.<br />
+ Md is a vertex offset of M if and only if the vertices of the Gaussian image mesh S are contained in the unit sphere S*. In this case, M and Md are <strong>circular meshes</strong> (i.e., each face has a circum-circle).</li>
+    <li><strong>Edge offsets</strong>: The distance of corresponding parallel edges of M and Md (actually, lines that carry these edges) does not depend on the edge and equals d.<br />
+Md is an edge offset of M exactly if the edges of the Gaussian image mesh S are tangent to the unit sphere S*.</li>
+    <li><strong>Face offsets</strong>: The distance of corresponding faces of M and Md (actually, the parallel planes of corresponding faces) is independent of the face and equals d.<br />
+ Md is a face offset of M if and only if the faces of the Gaussian image mesh S are tangent to the unit sphere S*. In this case, M and Md are <strong>conical meshes</strong>.
+ <img src="/images/posts/AG/19-24 offset.png" height="580" width="800" />
+ <img src="/images/posts/AG/19-25 offset.png" height="500" width="800" />
+ <img src="/images/posts/AG/19-27 offset.png" height="350" width="800" />
+ cone condition at a vertex: The sum of opposite edge angles must be equal: $ω_1 + ω_3 = ω_2 +ω_4.$<br />
+ This angle balance condition may also be seen as a discrete condition for orthogonality of the two mesh polygons passing through a vertex.<br />
+Because conical meshes are orthogonal and conjugate in a discrete sense, conical meshes are a discrete version of the network of principal curvature lines on a smooth surface.
+<img src="/images/posts/AG/19-29 conical.png" height="450" width="800" />
+<img src="/images/posts/AG/19-31 koebe.png" height="600" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="optimal-discrete-surfaces-最优离散曲面">Optimal discrete surfaces 最优离散曲面</h3>
+<blockquote>
+  <ul>
+    <li>Koebe meshes S introduced in connection with edge offsets are the basis of an elegant construction of discrete minimal surfaces.
+<img src="/images/posts/AG/19-34 koebe.png" height="400" width="400" />
+<img src="/images/posts/AG/19-34b koebe.png" height="340" width="680" /></li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>The Christoffel dual: static equilibrium of diagonal meshes.   M the Christoffel dual of S.
+<img src="/images/posts/AG/19-35 minimal.png" height="370" width="800" />
+<img src="/images/posts/AG/19-36 christoffel.png" height="440" width="800" /></li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Beyond quad meshes.
+<img src="/images/posts/AG/19-39 offset.png" height="515" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="future-research">Future research</h3>
+<h3 id="references-and-further-reading">References and further reading</h3>
+:ET

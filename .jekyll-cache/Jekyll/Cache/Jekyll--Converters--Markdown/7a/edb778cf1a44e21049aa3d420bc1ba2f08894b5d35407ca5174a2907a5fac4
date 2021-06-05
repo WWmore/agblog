@@ -1,0 +1,98 @@
+I"R<h3 id="deformation-变形">Deformation 变形</h3>
+
+<p><img src="/images/posts/AG/13-2 deformation.png" height="500" width="800" /></p>
+
+<h3 id="three-dimensional-transformations-3d变换">Three-Dimensional Transformations 3D变换</h3>
+<blockquote>
+  <ul>
+    <li>Affine maps 仿射映射：<br />
+      <ol>
+        <li>直线映射成直线</li>
+        <li>平面映射成平面</li>
+        <li>保直线和平面的平行性</li>
+        <li>不改变共线点比例</li>
+      </ol>
+    </li>
+    <li>Projective maps 射影映射：<br />
+      <ol>
+        <li>直线映射成直线</li>
+        <li>平面映射成平面</li>
+        <li>linear functions <strong>[f = (f0 + f1x + f2y + f3z)/D]</strong> with a common denominator D = d0 + d1x + d2y + d3z.  if d1 = d2 = d3 = 0 (d0 ≠ 0) we have an affine map. Otherwise, d0 + d1x + d2y + d3z = 0 determines a plane V whose points are mapped to points at infinity.</li>
+      </ol>
+    </li>
+    <li>Nonlinear transformations<br />
+not all straight lines are mapped to straight lines</li>
+  </ul>
+</blockquote>
+
+<h3 id="twisting-扭曲">Twisting 扭曲</h3>
+<blockquote>
+  <p>The bottom plane B remains fixed and the rotational angle αmax of the top plane T is prescribed. We assume that the distance between the bottom and top planes is h, the height of the object to be deformed. The rotational angle α(z) of the slice at height z above B is selected to be
+<strong>α(z) = (z/h) α_{max}</strong>.
+<img src="/images/posts/AG/13-3 twisting.png" height="300" width="800" />
+<img src="/images/posts/AG/13-4 twisting.png" height="650" width="800" /></p>
+  <ul>
+    <li>interesting property of the twist operation is that it <strong>preserves the volume</strong>.</li>
+  </ul>
+</blockquote>
+
+<h3 id="tapering-scaling">Tapering (~scaling)</h3>
+<blockquote>
+  <ul>
+    <li>We select a reference plane B (say, the bottom plane) and an orthogonal axis A.</li>
+    <li>All points of B and all points of A remain fixed under tapering.</li>
+    <li>One then changes the object by scaling the slices in planes orthogonal to A (i.e., parallel to B).</li>
+    <li>Tapering is not a linear transformation. It is a special quadratic transformation.
+<img src="/images/posts/AG/13-8 tapering.png" height="424" width="800" /></li>
+    <li><strong>Bulge</strong>. If one wants to have thickening or thinning effects without loss of smoothness, one can use a deformation technique sometimes called bulge.</li>
+  </ul>
+</blockquote>
+
+<h3 id="shear-deformations">Shear Deformations</h3>
+<blockquote>
+  <ul>
+    <li>Shear deformations apply translations to the slices
+<img src="/images/posts/AG/13-11 shape.png" height="420" width="800" /></li>
+    <li>shear transformations are therefore volume preserving.
+<img src="/images/posts/AG/13-14 shape.png" height="250" width="425" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="bending-弯曲">Bending 弯曲</h3>
+<blockquote>
+  <ul>
+    <li>bending deformations that also change the orientation of the slices.
+<img src="/images/posts/AG/13-16 bending.png" height="400" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="freeform-deformations-自由形变换">Freeform Deformations 自由形变换</h3>
+<blockquote>
+  <ul>
+    <li>Planar Bézier deformations of degree (1,1).
+<img src="/images/posts/AG/13-17 freeform.png" height="425" width="800" />
+<img src="/images/posts/AG/13-18 freeform.png" height="555" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="inversions-倒置">Inversions 倒置</h3>
+<blockquote>
+  <ul>
+    <li>The inversion with respect to a sphere maps<br />
+(a) straight lines to circles through the center o and<br />
+(b) planes P to spheres P1 through o. <br />
+(c) Spheres (which do not pass through o) are mapped to spheres and circles (not through o) are mapped to circles.
+<img src="/images/posts/AG/13-23 inversion.png" height="620" width="800" />
+<img src="/images/posts/AG/13-26 cyclide.png" height="355" width="600" />
+<img src="/images/posts/AG/13-27 canal.png" height="470" width="800" /></li>
+  </ul>
+</blockquote>
+
+<h3 id="three-dimensional-textures-3d纹理">Three-Dimensional Textures 3D纹理</h3>
+<blockquote>
+  <ul>
+    <li>One views a three-dimensional texture as a topographic surface [i.e., the graph surface of a height field, which associates to each point p1 of a surface S1 a height h(p1) of the texture].
+<img src="/images/posts/AG/13-29 texture.png" height="626" width="780" /></li>
+  </ul>
+</blockquote>
+:ET

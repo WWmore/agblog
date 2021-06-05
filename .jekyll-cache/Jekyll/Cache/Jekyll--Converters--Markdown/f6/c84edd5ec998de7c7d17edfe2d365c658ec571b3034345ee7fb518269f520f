@@ -1,0 +1,13 @@
+I"z<p>写一段Matlab程序计算曲面$S$由单参数平面族生成的包络面：</p>
+<ul>
+  <li>平面族为
+ \(U(t,x)=u(t)^Tx-u_0(t), t\in[1/4, \pi-1/4]\)；</li>
+  <li>\(u(t) = (cos t cos\frac{(t-\pi)^2}{2\pi}, cos t sin\frac{(t-\pi)^2}{2\pi}, sin  t)^T, u_0(t)=2cos t + 3/2\);</li>
+  <li>找到回归线$c$，用过$c$的直母线密集展示$S$。</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/17regression.jpg" alt="" />
+ <img src="/images/posts/gp_homework/17evelope1.jpg" alt="" />
+ <img src="/images/posts/gp_homework/17torus-evelop.jpg" alt="" />
+ <img src="/images/posts/gp_homework/17torus-evelop2.jpg" alt="" /></p>
+:ET

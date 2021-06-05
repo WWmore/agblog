@@ -1,0 +1,32 @@
+I"�<p>链接： <a href="http://sofasofa.io/forum_main_post.php?postid=1001175">http://sofasofa.io/forum_main_post.php?postid=1001175</a></p>
+
+<pre><code class="language-Python">&gt;&gt;&gt; x
+array([[ 1. ,  2.3],
+       [ 1.3,  2.9]])
+&gt;&gt;&gt; a = np.trunc(x)
+&gt;&gt;&gt; a
+array([[ 1.,  2.],
+       [ 1.,  2.]])
+&gt;&gt;&gt; b = np.ceil(x)
+&gt;&gt;&gt; b
+array([[ 1.,  3.],
+       [ 2.,  3.]])
+&gt;&gt;&gt; c = np.floor(x)
+&gt;&gt;&gt; c
+array([[ 1.,  2.],
+       [ 1.,  2.]])
+&gt;&gt;&gt; d = np.rint(x)
+&gt;&gt;&gt; d
+array([[ 1.,  2.],
+       [ 1.,  3.]])
+</code></pre>
+
+<pre><code class="language-Python">x = np.array([-1.01, 1]）
+np.rint(x)
+&gt;&gt;&gt; np.array([-1, 1]）
+
+x = [-0.99, 1]
+np.rint(x)
+&gt;&gt;&gt; np.array([-1, 1])
+</code></pre>
+:ET

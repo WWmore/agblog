@@ -1,0 +1,108 @@
+I"6<h3 id="freeform-curves-自由曲线">Freeform curves 自由曲线</h3>
+<p><img src="/images/posts/AG/freeformCurve.png" height="360" width="800" /></p>
+
+<h3 id="bezier-curves">Bezier Curves</h3>
+<ul>
+  <li>To generate a point on a Bézier curve with $n$ control points, we have to perform $n – 1$ steps of the de Casteljau algorithm. $n$个控制顶点，$n-1$次曲线，需要$n-1$次算法</li>
+</ul>
+
+<p><img src="/images/posts/AG/bezier.png" height="500" width="800" /></p>
+
+<p><img src="/images/posts/AG/cornerCutting.png" height="250" width="800" /></p>
+
+<ul>
+  <li>局限：<br />
+    <ol>
+      <li>A Bézier curve with a large number of control points becomes impractical for design. The degree of the curve increases and the curve shape resembles less the shape of the control polygon. \</li>
+      <li>The control points have global control on the shape of the curve.</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="b-spline-curves">B-spline Curves</h3>
+<ul>
+  <li>The B stands for “basis.”</li>
+  <li>We can also use the B as a mnemonic to remember that a B-spline curve consists of several Bézier curve segments.</li>
+  <li>Defining a B-spline curve. A B-spline curve is defined by<br />
+    <blockquote>
+      <p>• $m + 1$ control points,<br />
+• the degree $n,$ and<br />
+• the knot vector.<br />
+<img src="/images/posts/AG/bspline.png" height="150" width="390" /></p>
+    </blockquote>
+  </li>
+  <li>B-spline curve of degree $n$ with $m + 1$ control points $d_0, d_1, … d_m$ consists of $m + 1 – n$ Bézier curve segments of degree $n$.</li>
+  <li>The maximum degree achievable is $n = m$, for which the B-spline curve is actually a Bézier curve to the same control polygon.</li>
+</ul>
+
+<p><img src="/images/posts/AG/BB.png" height="240" width="400" /></p>
+
+<ul>
+  <li>
+    <p>The human eye is able to detect kinks (because the curve tangents change abruptly) and curvature discontinuities (because the curvature changes abruptly).  For cubic B-spline curves, we inherently achieve smooth tangents and smooth curvature at the knot points where the separate curve segments are joined.</p>
+  </li>
+  <li>
+    <p>B-spline curves 缺点： With B-spline curves, we are not able to represent such simple curves as a circle, an ellipse, or a hyperbola.</p>
+  </li>
+</ul>
+
+<h3 id="nurbs-curves">NURBS Curves</h3>
+<ul>
+  <li>NURBS curves are B-spline curves with a nonuniform knot vector.</li>
+</ul>
+
+<p><img src="/images/posts/AG/NURBS.png" height="360" width="680" /></p>
+
+<ul>
+  <li>Connection between B-spline curves and NURBS curves: a planar NURBS curve is a central projection of a spatial B-spline curve.</li>
+  <li>In addition, a spatial NURBS curve is a central projection of B-spline curve lying in a 4D space.</li>
+  <li>A B-spline curve is a special NURBS curve wherein all weights are equal.</li>
+</ul>
+
+<p><img src="/images/posts/AG/BBN.png" height="130" width="340" /></p>
+
+<p><img src="/images/posts/AG/BN.png" height="340" width="800" /></p>
+
+<ul>
+  <li>Conic sections as special NURBS curves.</li>
+</ul>
+
+<p><img src="/images/posts/AG/CN.png" height="180" width="520" /></p>
+
+<p><img src="/images/posts/AG/BN2.png" height="300" width="750" /></p>
+
+<h3 id="subdivision-curves-细分曲线">Subdivision curves 细分曲线</h3>
+<ul>
+  <li><strong>Chaikin’s algorithm</strong> for the generation of quadratic B-splines.</li>
+</ul>
+
+<p><img src="/images/posts/AG/Chaikin.png" height="285" width="774" /></p>
+
+<ul>
+  <li><strong>The Lane-Riesenfeld algorithm</strong> is a generalization of Chaikin’s algorithm that produces in the limit a uniform B-spline curve of degree n.</li>
+</ul>
+
+<p><img src="/images/posts/AG/LaneR.png" height="433" width="789" /></p>
+
+<ul>
+  <li><strong>The four-point scheme of Dubuc</strong>. Formally, the new point is computed as
+    <blockquote>
+      <p>$p_i^{new} = –1/16 p_{i-1} + 9/16 p_i + 9/16 p_{i+1} – 1/16 p_{i+2}.$</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p><img src="/images/posts/AG/Dubuc1.png" height="244" width="783" /></p>
+
+<ul>
+  <li>One year later, Dyn et al. (1987) <strong>generalized the four-point scheme</strong> as follows.
+    <blockquote>
+      <p>$p_i^{new} = –w∙p_{i-1} + (1/2 + w)∙p_i + (1/2 + w)∙p_{i+1} – w∙p_{i+2}.$</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>For w = 1/16 we have the original four-point scheme.</p>
+
+<p><img src="/images/posts/AG/Dubuc2.png" height="351" width="777" /></p>
+:ET

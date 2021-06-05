@@ -1,0 +1,21 @@
+I"6<p>给定三维空间点阵$P\in R^{n\times3}$, 估计其主法曲率$k_1, k_2$及其相应主法曲率方向.</p>
+
+<ul>
+  <li>对每一个空间点$p_i$，找到合适邻近点$p_1, \cdots, p_m$，并使用PCA(主成分分析)定义其局部坐标系；</li>
+  <li>使用jet-fitting估计主曲率方向、主法曲率、Gauss曲率；</li>
+  <li>用箭头展示主曲率方向，根据Gauss曲率不同，颜色化 曲面.</li>
+</ul>
+
+<p><img src="/images/posts/gp_homework/7scatter.jpg" alt="" />
+　　　　　　　　　　　Fig. Scatters
+<img src="/images/posts/gp_homework/7pca.jpg" alt="" />
+　　　　　　　　　　　Fig. PCA
+<img src="/images/posts/gp_homework/7local.jpg" alt="" />
+　　　　　　　　　　　Fig. Local Jet-fitting
+<img src="/images/posts/gp_homework/7local-jetfit.jpg" alt="" />
+　　　　　　　　　　　Fig. Jet-fitting
+<img src="/images/posts/gp_homework/7curvest.jpg" alt="" />
+                  Fig. Gauss curvature
+<img src="/images/posts/gp_homework/7curvature.jpg" alt="" />
+                  Fig. Gauss curvature</p>
+:ET
