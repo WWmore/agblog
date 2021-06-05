@@ -16,7 +16,7 @@ baseurl:          '/agblog'
 
 author:
   name:           'WWmore'
-  url:            https://twitter.com/fongandrewc
+  url:
 
 paginate:         5
 # paginate_path:    '/page:num'
