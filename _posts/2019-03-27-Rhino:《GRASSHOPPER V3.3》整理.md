@@ -2,7 +2,7 @@
 layout: post
 title: "《GRASSHOPPER Foundations v3.3》整理"
 date: 2019-03-27
-tag: Rhino
+tags: Rhino
 ---
 
 该版本是GRASSHOPPER 最近英文版（2015年），目前只有四种语言翻译，还没有中文翻译，pdf同步<a href="http://grasshopperprimer.com/en/index.html"  target="_blank">MODELAB</a> 。
@@ -19,7 +19,7 @@ tag: Rhino
 - Ctrl + G ： 快速建组
 - 空格==鼠标中建：打开radial menu
 
-#### 插值散点、构造曲线 
+#### 插值散点、构造曲线
 
 <img src="/images/posts/Rhino/grassv3_1.png" height="30%" width="30%">
 
@@ -50,9 +50,3 @@ tag: Rhino
 <img src="/images/posts/Rhino/grassv3_8.png" height="30%" width="30%">
 <img src="/images/posts/Rhino/grassv3_9.png" height="30%" width="30%">
 <img src="/images/posts/Rhino/grassv3_10.png" height="30%" width="30%">
-
-
-
-
-
-

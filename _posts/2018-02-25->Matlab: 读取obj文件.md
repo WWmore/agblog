@@ -2,7 +2,7 @@
 layout: post
 title: "Matlab：读取obj文件"
 date: 2018-02-25
-tag: GeometryProcessing 作业
+tags: GeometryProcessing 作业
 ---
 使用Matlab函数$[V, T]=readobj(filename)$ 读取obj文件，返回格点集$V$和面集$F$：
 

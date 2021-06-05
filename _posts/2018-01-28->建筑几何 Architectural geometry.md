@@ -2,7 +2,7 @@
 layout: post
 title: "建筑几何 Architectural geometry"
 date: 2018-01-28
-tag: Architectural geometry 建筑几何
+tags: Architectural geometry 建筑几何
 ---
 
 　　三维物理建筑能否给人美感，很大一部分程度是由建筑的外在曲面决定的。就像鸟巢、水立方给人的初印象一样，都是被表面的形态都吸引。也像人们欣赏美女的感觉，从外在曲线线条看轮廓，从皮肤曲面走势(起伏)辨别美丑。

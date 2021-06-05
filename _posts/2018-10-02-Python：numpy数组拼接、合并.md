@@ -2,7 +2,7 @@
 layout: post
 title: "Python：numpy数组拼接、合并"
 date: 2018-10-02
-tag: Python
+tags: Python
 ---
 
 链接： <https://blog.csdn.net/zyl1042635242/article/details/43162031>

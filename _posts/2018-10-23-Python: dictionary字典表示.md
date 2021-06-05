@@ -2,7 +2,7 @@
 layout: post
 title: "Python：dictionary字典表示"
 date: 2018-10-23
-tag: Python
+tags: Python
 ---
 
 
@@ -14,7 +14,7 @@ a=np.arange(20)
 b=-np.arange(20)
 
 dict(zip(a,b))
-Out: 
+Out:
 {0: 0,
  1: -1,
  2: -2,
@@ -42,7 +42,7 @@ c.keys()
 Out: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 
 c.values()
-Out: 
+Out:
 [0,
  -1,
  -2,
@@ -72,7 +72,7 @@ Out:
 import itertools
 
 {k:v for k,v in itertools.izip(a,b)}
-Out: 
+Out:
 {0: 0,
  1: -1,
  2: -2,

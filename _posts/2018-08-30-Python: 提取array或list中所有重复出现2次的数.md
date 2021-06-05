@@ -2,7 +2,7 @@
 layout: post
 title: "Python：提取array或list中所有重复出现2次的数"
 date: 2018-08-30
-tag: Python
+tags: Python
 ---
 
 ## 若给定一个较大数组array或列表list，如何提取其中重复出现某一次数的所有元素。
@@ -31,7 +31,7 @@ cornerList = np.unique(a)
 ```Python
  a = (x for x in num if num.count(x)==2)
  b=[]
- for i in a: 
+ for i in a:
      b.append(i)
  cornerList = np.unique(b)
 ```

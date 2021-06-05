@@ -2,7 +2,7 @@
 layout: post
 title: "Matlab：3次Bezier曲线拟合"
 date: 2018-02-25
-tag: GeometryProcessing 作业
+tags: GeometryProcessing 作业
 ---
 
  - 给定点阵$\{x_i\}\in R^{2}$, 执行算法拟合3次Bezier曲线；

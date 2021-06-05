@@ -2,7 +2,7 @@
 layout: post
 title: "Python： Counter、count查重办法"
 date: 2018-09-10
-tag: Python
+tags: Python
 ---
 
 ### counter
@@ -72,7 +72,7 @@ for each_b in b:
         if each_b == each_a:
             count += 1
     print(each_b, ": ", count)
-    
+
 (1, ': ', 2)
 (2, ': ', 2)
 (3, ': ', 1)
@@ -89,9 +89,9 @@ def list_duplicates(seq):
     tally = defaultdict(list)
     for i,item in enumerate(seq):
         tally[item].append(i)
-    return ((key,locs) for key,locs in tally.items() 
+    return ((key,locs) for key,locs in tally.items()
                             if len(locs)>1)
- 
+
 for dup in sorted(list_duplicates(source)):
     print(dup)
 

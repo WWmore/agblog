@@ -2,7 +2,7 @@
 layout: post
 title: "A visiting year in Europa"
 date: 2019-01-01
-tag: travel
+tags: travel
 ---
 
 Time flies.

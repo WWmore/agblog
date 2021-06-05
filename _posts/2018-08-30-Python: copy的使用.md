@@ -2,18 +2,18 @@
 layout: post
 title: "Python：copy的使用"
 date: 2018-08-30
-tag: Python
+tags: Python
 ---
 
 ### 数组np.array的copy
 ```Python
-np.copy 
+np.copy
 ```
 
 ### 列表list的copy
 >  Python中的对象之间赋值时是按引用传递的，如果需要拷贝对象，需要使用标准库中的copy模块。
 
-> 
+>
 1. copy.copy 浅拷贝 只拷贝父对象，不会拷贝对象的内部的子对象。
 2. copy.deepcopy 深拷贝 拷贝对象及其子对象
 

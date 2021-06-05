@@ -2,7 +2,7 @@
 layout: post
 title: "Python: numpy对二维数据取整"
 date: 2018-10-17
-tag: Python
+tags: Python
 ---
 
 链接： <http://sofasofa.io/forum_main_post.php?postid=1001175>
@@ -27,15 +27,15 @@ array([[ 1.,  2.],
 >>> d
 array([[ 1.,  2.],
        [ 1.,  3.]])
-``` 
- 
- 
+```
+
+
 ```Python       
 x = np.array([-1.01, 1]）
-np.rint(x) 
+np.rint(x)
 >>> np.array([-1, 1]）
 
 x = [-0.99, 1]
-np.rint(x) 
+np.rint(x)
 >>> np.array([-1, 1])
 ```

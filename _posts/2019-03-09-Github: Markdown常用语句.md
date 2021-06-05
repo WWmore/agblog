@@ -2,7 +2,7 @@
 layout: post
 title: "Markdown常用语句"
 date: 2019-03-09
-tag: github
+tags: github
 ---
 
 
@@ -21,7 +21,7 @@ tag: github
 ## 插入图片
 
 单个显示：
->     <img src="/images/posts/文件夹/图片名字.JPG" height="300" width="400" > 
+>     <img src="/images/posts/文件夹/图片名字.JPG" height="300" width="400" >
 >     <img src="/images/posts/文件夹/图片名字.JPG" height="40%" width="40%" >
 
 并排居中显示：
@@ -54,6 +54,6 @@ tag: github
 
 
 
-参考链接： 
+参考链接：
 <https://www.markdownguide.org/basic-syntax/>
 <https://www.markdownguide.org/basic-syntax/>

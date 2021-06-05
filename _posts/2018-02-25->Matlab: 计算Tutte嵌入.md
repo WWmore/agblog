@@ -2,7 +2,7 @@
 layout: post
 title: "Matlab：计算Tutte嵌入"
 date: 2018-02-25
-tag: GeometryProcessing 作业
+tags: GeometryProcessing 作业
 ---
 写一段Matlab程序计算类圆盘三角网格的Tutte嵌入：
  - 需要识别网格边界格点；
